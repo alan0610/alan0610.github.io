@@ -62,10 +62,13 @@
         float: left;
         animation: fadeIn 1s 1.8s backwards;
         white-space: nowrap;
+        transition: 0.3s color;
+        transition: 0.3s background-color;
 
         &:hover {
             background-color: #ffd700;
             color: #333;
+            transition-delay: 0s;
         }
     }
 }

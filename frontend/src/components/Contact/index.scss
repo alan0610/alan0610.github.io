@@ -66,11 +66,13 @@
         border: 1px solid #ffd700;
         float: right;
         border-radius: 4px;
+        transition: 0.3s color;
+        transition: 0.3s background-color;
 
         &:hover {
             background-color: #ffd700;
             color: #333;
+            transition-delay:0s;
         }
     }
-
 }
