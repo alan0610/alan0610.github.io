@@ -14,7 +14,7 @@
   opacity: 0.6;
   position: absolute;
   bottom: 0;
-  left: 120px;
+  left: 85px;
   font-size: 18px;
   font-family: 'La Belle Aurore';
 }
@@ -30,7 +30,6 @@
   min-height: 566px;
   position: absolute;
   opacity: 0;
-  top: 5%;
   margin: 0 auto;
   z-index: 1;
   transform-style: preserve-3d;
@@ -99,7 +98,7 @@
   }
   .text-zone {
     position: absolute;
-    left: 10%;
+    left: 15%;
     top: 50%;
     transform: translateY(-50%);
     width: 50%;
@@ -116,6 +115,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .tags {
+    left: 30px;
+  }
+
   .page {
     position: initial;
   }
